@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const HOST_URL = process.env.NEXT_PUBLIC_HOST_URL;
-const title = "Transaction Farcaster Frame on OP";
+const title = "DegenZ Mint Frame";
 const frameImgUrl = `${HOST_URL}/NFTImage.png`;
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
           content={`${HOST_URL}/api/frame/op/get-tx-frame`}
         />
       </Head>
-      <h1>Transaction Frame</h1>
+      <h1>DegenZ Mint Frame</h1>
     </>
   );
 }
