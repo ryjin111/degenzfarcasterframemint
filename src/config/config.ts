@@ -27,7 +27,7 @@ contractAddress: process.env.NEXT_PUBLIC_CONTRACT_ADDRESS,
 hostURL: process.env.NEXT_PUBLIC_HOST_URL,
 thirdweb:
 {
-chainId: Number(process.env.CHAIN),
+chainId: process.env.CHAIN,
 engine:
 {
     url: process.env.THIRDWEB_ENGINE_URL,
