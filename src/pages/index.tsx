@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const HOST_URL = process.env.NEXT_PUBLIC_HOST_URL;
-const title = "DegenZ Mint Frame";
+const title = "DegenZ";
 const frameImgUrl = `${HOST_URL}/NFTImage.png`;
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         <meta property="og:title" content={title} />
         <meta property="fc:frame" content="vNext"/>
         <meta name="fc:frame:image" content={frameImgUrl}/>
-        <meta property="fc:frame:image:aspect_ratio" content="1:1"/>
+        <meta name="fc:frame:image:aspect_ratio" content="1:1"/>
         <meta property="fc:frame:button:1" content="Mint NFT"/>
         <meta property="fc:frame:button:1:action" content="tx"/>
         <meta 
